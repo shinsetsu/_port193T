@@ -1,0 +1,338 @@
+﻿
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>mDev</title>
+</head>
+<body>
+    
+    <style>
+        .topBar {
+            background-color: grey;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+
+            .topBar img {
+                padding: 0 10px;
+            }
+
+            .topBar a {
+                display: inline-block;
+                margin-bottom: 0;
+                padding: 5px 8px;
+            }
+
+                .topBar a:last-child {
+                    margin-right: 10%;
+                }
+
+        .botLinkBar {
+            display: flex;
+            justify-content: space-around;
+            width: 70%;
+            margin-left: 7%;
+            border-bottom: 3px solid rgba(0,0,0,0);
+        }
+
+            .botLinkBar a {
+                border-bottom: 3px solid rgba(0,0,0,0);
+            }
+
+                .botLinkBar a:hover {
+                    border-bottom: 3px solid #7e6900;
+                }
+
+
+        .botBar {
+            background-color: #0044a1;
+            justify-content: space-around;
+            width: 100%;
+            color: white;
+        }
+
+            .botBar nav {
+                display: flex;
+                width: 30%;
+                margin-left: 7.5%;
+                justify-content: space-around;
+            }
+
+        .searchBox {
+            width: 20%;
+            border: 1px solid red;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            float: right;
+            border-left: 5px;
+            margin-right: 10%;
+            margin-top: 2%;
+        }
+
+            .searchBox img {
+                border-left: 1px solid black;
+                float: right;
+            }
+
+            .searchBox input {
+                border: none;
+                margin-bottom: 0px;
+                outline: 1px solid #00efff;
+            }
+
+                .searchBox input:focus {
+                    background-color: aqua;
+                }
+    </style>
+
+
+    <div class="topBar">
+
+        <a style="width:200px;">
+            <img src="~/mDev/Images/phone-24px.svg" style="display: inline-block;
+        height: 25px;" />
+            (217) 352-9330
+        </a>
+        <a>
+            <img src="~/mDev/Images/comments-solid.svg" style="height: 20px;
+        padding-bottom: 1px;" /> Contact Us
+        </a>
+
+
+    </div>
+
+    <div>
+        <img src="~/mDev/Images/atgLogo.svg" style="height:100px; margin-left:10%;" />
+
+
+        <div class="searchBox">
+            <input type="text">
+
+            <img src="~/mDev/Images/search-24px.svg" style="height:30px;" />
+        </div>
+
+
+
+    </div>
+    <div class="botLinkBar">
+        <a>
+            <s>■</s>  Test            <img src="~/mDev/Images/arrow_drop_down-24px.svg" />
+        </a>
+        <a>  <s>■</s>    Cots & ATE      <img src="~/mDev/Images/arrow_drop_down-24px.svg" />    </a>
+        <a>   <s>■</s>       PLC     <img src="~/mDev/Images/arrow_drop_down-24px.svg" /></a>
+        <a>   <s>■</s>       Scientific      <img src="~/mDev/Images/arrow_drop_down-24px.svg" /></a>
+        <a>   <s>■</s>       Ecotech     <img src="~/mDev/Images/arrow_drop_down-24px.svg" /></a>
+
+    </div>
+
+    <div class="botBar">
+        <nav>
+            <a> Request      </a>
+            <a> Sell      </a>
+            <a> Repair      </a>
+        </nav>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+        .featured{ list-style:none}
+        .featured li{ display:flex;  }
+    </style>
+
+
+    <div class="featured">
+        
+
+        <o>        1       </o>
+        <o>        2       </o>
+        <o>        3       </o>
+        <o>        4       </o>
+        <o>        5       </o>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+        footer nav {
+            padding-top: 40%;
+            display: flex;
+            justify-content: space-around;
+            width: 85%;
+            margin: auto;
+            border-bottom: 1px solid black;
+        }
+
+
+            footer  ul {
+                list-style-type: none;
+            }
+
+            footer  li a {
+                color: black;
+            }
+
+            footer  li:first-child {
+                margin-bottom: 4%;
+                color: #003dae;
+            }
+    </style>
+
+
+    <footer>
+
+        <nav>
+            <ul>
+                <li>        Customer Service       </li>
+                <li>        <a href="/PaymentMethods">  Payment Methods </a>       </li>
+                <li>        <a href="/ShippingInformation">  Shipping Information  </a>       </li>
+                <li>        <a href="/Return RMA Form">   Return RMA Form       </a>       </li>
+                <li>        <a href="/ReturnRMAForm">   Return RMA Form       </a>       </li>
+
+            </ul>
+
+
+            <ul>
+
+                <li>        Repair Services       </li>
+                <li>        <a href="/ATE">    ATE / Embedded Systems      </a>      </li>
+                <li>        <a href="/VXI">   VXI / VME Repair      </a>      </li>
+                <li>        <a href="/PLC">    PLC Repair       </a>      </li>
+                <li>        <a href="/NationalInstruments">   National Instruments Repair      </a>      </li>
+                <li>        <a href="/MilspecSystems">   Milspec Systems     </a>      </li>
+
+            </ul>
+
+            <ul>
+                <li>        Company Information </li>
+                <li>       <a href="OurCompany">     Our Company   </a>       </li>
+                <li>       <a href="VendorInformation">    Vendor Information   </a>       </li>
+                <li>       <a href="GovermentSales">    Government Sales   </a>       </li>
+                <li>       <a href="SalesTax">    Sales Tax Disclosure    </a>       </li>
+
+            </ul>
+
+            <ul>
+                <li>        Resources       </li>
+                <li>            </li>
+                <li>         <a href="RequestInformation">     Request  Information </a>       </li>
+                <li>         <a href="Sell">     Sell Equipment     </a>       </li>
+                <li>         <a href="OfficeHours">     Office Hours & Location     </a>       </li>
+            </ul>
+
+            <ul>
+                <li>        Connect             </li>
+                <li>         <a href="Twitter">     Twitter  </a>       </li>
+                <li>         <a href="Facebook">     Facebook  </a>       </li>
+
+            </ul>
+        </nav>
+
+
+        <br />
+
+        <style>
+            .footerBot {
+                margin-top: 5%;
+                display: flex;
+                justify-content:space-between;
+            }
+            .cp{
+                text-align:center;
+                font-size:xx-small;
+                margin:auto;
+                margin-top:5%;
+               
+            }
+
+        </style>
+
+
+        <ul class="footerBot">
+
+            <li>
+                Artisan Technology Group ®  <br />
+                101 E. Mercury Drive        <br />  
+                Champaign, IL 61822     <br />
+            </li>
+
+            <li>      We securely accept    </li>
+
+            <li>
+                Tel:	(888) 887-6872 (US and Canada) <br />
+                (217) 352-9330  <br />  
+                Fax:	(888) 557-6872 (US and Canada)  <br />
+                (240) 376-1381      <br />
+                Email:	sales@artisantg.com  <br />
+            </li>
+
+
+
+        </ul>
+        
+
+        <div class="cp">
+            Copyright Artisan Technology Group ®    <br />
+            All rights reserved. All logos and trademarks are properties of their respective companies.     <br />
+            Product price, specification, warranty and availability subject to change without notice.       <br />
+            Artisan Technology Group ®, Artisan Ecotech ®, and Artisan Scientific ® are registered trademarks of Artisan Scientific Corporation.        <br />
+            Artisan Scientific Corporation / Artisan Technology Group is not an authorized distributor of Artesyn Embedded Technologies, Inc. or Artesyn products.      <br />
+            Artesyn Embedded Technologies® is a trademark of Artesyn Embedded Technologies, Inc. and is used for identification purposes only.      <br />
+
+        </div>
+
+
+
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

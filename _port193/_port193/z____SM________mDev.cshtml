@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+
+</head>
+<body>
+
+
+    <style>
+
+        * {
+            font-weight: 100 !important;
+            font-size: 18px;
+            text-wrap: normal;
+        }
+
+        html {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-shadow: -.5px 0px .2px #202020,.25px 0px .5px #202020,0px .25px .5px #202020,0px -.5px .5px #202020;
+            background-color: #1a1a1a;
+            color: #007169;
+            margin-left: 10%;
+            word-spacing: 10px;
+            letter-spacing: 1px;
+            line-height: 28px;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        }
+
+        header {
+            background-color: #22333d;
+            color: white;
+        }
+
+        a {
+            color: #30d28b;
+        }
+
+            a:hover {
+                color: #30d28b;
+                border-bottom: .5px dotted #de20b3;
+            }
+
+        body {
+            margin-top: 5%;
+            margin-right: 5%;
+            background-color: #7b7b7b;
+        }
+    </style>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
+            <div class="container">
+
+
+
+
+
+
+                @*           HeaderLinks                                                                                                             *@
+                <a class="navbar-brand" href="/"> ˢʰⁱⁿ Dev || </a>
+                <a class="navbar-brand" href="/port19"> port19 </a>
+                <a class="navbar-brand" href="/IndividualMarketMedical"> IndividualMarketMedical </a>
+                @*  <a class="navbar-brand"     href="/bootStrapComponents">    bootStrapComponents                </a>*@
+
+
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                @*<div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" id="stockItems" href="~/stockItems">stockItem</a>
+
+                            </li>
+
+                        </ul>
+                    </div>*@
+            </div>
+        </nav>
+    </header>
+
+    @*<partial name="_SomePartial" />*@
+    <main role="main" class="pb-3 container">
+
+
+
+
+
+        @*Here is the Home for Any Tags needed for populating.
+            These will have brief in-line styling for dropping Cross Project.
+            They will in Prod env be changed to a JS Appendsion to the Dom.*@
+
+
+
+        @RenderBody()
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+    @*<footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2019 - shin - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>*@
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    @*<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>*@
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
